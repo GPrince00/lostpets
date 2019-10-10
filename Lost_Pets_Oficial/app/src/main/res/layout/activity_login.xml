@@ -7,49 +7,19 @@
     tools:context=".activity.LoginActivity">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/logo"
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_marginTop="56dp"
-        app:layout_constraintBottom_toTopOf="@+id/editText2"
+        app:layout_constraintBottom_toTopOf="@+id/etLogin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo_preto" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Esqueceu sua senha?"
-        android:textColor="#000"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.632"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
-        app:layout_constraintVertical_bias="0.0" />
-
     <EditText
-        android:id="@+id/editText"
-        android:layout_width="226dp"
-        android:layout_height="39dp"
-        android:background="@drawable/background_caixa_texto"
-        android:ems="10"
-        android:hint="Senha"
-        android:inputType="textPassword"
-        android:textAlignment="center"
-        android:textColorHint="#fff"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2"
-        app:layout_constraintVertical_bias="0.11" />
-
-    <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/etLogin"
         android:layout_width="226dp"
         android:layout_height="39dp"
         android:layout_marginTop="48dp"
@@ -61,10 +31,41 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+
+    <EditText
+        android:id="@+id/etSenha"
+        android:layout_width="226dp"
+        android:layout_height="39dp"
+        android:background="@drawable/background_caixa_texto"
+        android:ems="10"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColorHint="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etLogin"
+        app:layout_constraintVertical_bias="0.11" />
+
+    <TextView
+        android:id="@+id/tvEsqueceuSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Esqueceu sua senha?"
+        android:textColor="#000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnEntrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.632"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etSenha"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnEntrar"
         android:layout_width="181dp"
         android:layout_height="50dp"
         android:layout_marginTop="42dp"
@@ -72,10 +73,11 @@
         android:text="Entrar"
         android:textColor="#fff"
         android:textColorHint="#fff"
+        android:onClick="entrarNoApp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/etSenha"
         app:layout_constraintVertical_bias="0.344" />
 
     <TextView
@@ -88,7 +90,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/btnEntrar"
         app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
