@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lost Pets</string>
+    <string name="bemVindo">Welcome!</string>
+    <string name="bemVindoFrase">In search of your happiness</string>
+    <string name="cadastrar">" Sign up"</string>
+    <string name="cadastroFrase">" Let's go be a Petters"</string>
+    <string name="cadastroPetFrase">Sign up be a Petters</string>
+    <string name="entrar">Log in</string>
+    <string name="esqueceuSuaSenha">Forgot your password?</string>
+    <string name="intro1Frase">Do you some need help?</string>
+    <string name="intro1Frase2">" Find your pet from our social network"</string>
+    <string name="intro2Frase">Help other Petters</string>
+    <string name="intro2Frase2">" Help find lost pets near your area."</string>
+    <string name="jaTenhoConta">" I already have an account"</string>
+    <string name="nome">Name</string>
+    <string name="senha">Password</string>
+    <string name="termosDeUso">Terms of use</string>
+    <string name="voceTemConta">Do you have an account?</string>
+    <string name="cadastre_se">" Sign up"</string>
+</resources>

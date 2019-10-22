@@ -1,3 +1,22 @@
 <resources>
-    <string name="app_name">Lost_Pets_Oficial</string>
+    <string name="app_name">Lost Pets</string>
+    <string name="cadastroFrase">Vamos lá seja um Petters</string>
+    <string name="nome">Nome</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="senha">Senha</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="termosDeUso">Termos de uso</string>
+    <string name="entrar">Entrar</string>
+    <string name="esqueceuSuaSenha">Esqueceu sua senha?</string>
+    <string name="voceTemConta">Você tem uma conta?</string>
+    <string name="bemVindo">Seja Bem-Vindo!</string>
+    <string name="bemVindoFrase">Em busca da sua felicidade</string>
+    <string name="cadastroPetFrase">Cadastre-se Seja um Petters</string>
+    <string name="jaTenhoConta">Já tenho conta</string>
+    <string name="intro1Frase">Precisa de Ajuda?</string>
+    <string name="intro1Frase2">Encontre o seu pet a partir de nossa rede social</string>
+    <string name="intro2Frase2">Ajude a encotrar Pets perdidos perto da sua região.</string>
+    <string name="intro2Frase">Ajude outros Petters</string>
+    <string name="cadastre_se">Cadastre-se</string>
+
 </resources>
