@@ -1,6 +1,9 @@
 package com.example.lost_pets_oficial.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+
 import com.example.lost_pets_oficial.R;
 import com.heinrichreimersoftware.materialintro.app.IntroActivity;
 import com.heinrichreimersoftware.materialintro.slide.FragmentSlide;
@@ -47,6 +50,10 @@ import com.heinrichreimersoftware.materialintro.slide.FragmentSlide;
                     .build()
 
             );
+        }
+        public void btSalvar(View view){
+            startActivity(new Intent(this, LoginActivity.class));
+
         }
     }
 
