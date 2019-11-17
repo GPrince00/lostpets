@@ -47,7 +47,7 @@ public class NavegacaoLostPets extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_cadastrarPet, R.id.nav_localizacao,
+                R.id.nav_principal, R.id.nav_cadastrarPet, R.id.nav_localizacao,
                 R.id.nav_configuracao, R.id.nav_contato, R.id.nav_sobre)
                 .setDrawerLayout(drawer)
                 .build();

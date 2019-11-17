@@ -67,7 +67,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:drawableLeft="@drawable/ic_mode_comment_black_24dp"
-                android:text="Comentar" />
+                android:text="Compartilhar" />
         </LinearLayout>
     </LinearLayout>
 
