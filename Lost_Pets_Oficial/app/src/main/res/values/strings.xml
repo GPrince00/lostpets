@@ -18,5 +18,19 @@
     <string name="intro2Frase2">Ajude a encotrar Pets perdidos perto da sua região.</string>
     <string name="intro2Frase">Ajude outros Petters</string>
     <string name="cadastre_se">Cadastre-se</string>
+    <string name="title_activity_navegacao_lost_pets">NavegacaoLostPets</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_sair">Sair</string>
+
+    <string name="menu_home">Principal</string>
+    <string name="menu_cadastrarPet">Cadastrar Pet</string>
+    <string name="menu_localizacao">Localização</string>
+    <string name="menu_configuracao">Configuração</string>
+    <string name="menu_sobre">Sobre</string>
+    <string name="menu_contato">Contato</string>
 
 </resources>
