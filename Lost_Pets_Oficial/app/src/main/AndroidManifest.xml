@@ -9,11 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
         <activity
             android:name=".activity.NavegacaoLostPets"
             android:label="@string/title_activity_navegacao_lost_pets"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".activity.CadastroActivity" />
+=======
+        <activity android:name=".activity.CadastroActivity"></activity>
+>>>>>>> a772c73c452465249169cf9b677dac38cd992f00
         <activity android:name=".activity.LoginActivity" />
         <activity
             android:name=".activity.MainActivity"

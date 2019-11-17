@@ -18,10 +18,13 @@
     <string name="termosDeUso">Terms of use</string>
     <string name="voceTemConta">Do you have an account?</string>
     <string name="cadastre_se">" Sign up"</string>
+<<<<<<< HEAD
     <string name="menu_configuracao">Setup</string>
     <string name="menu_contato">Share</string>
     <string name="menu_home">Home</string>
     <string name="menu_localizacao">Localization</string>
     <string name="menu_sobre">Send</string>
     <string name="menu_cadastrarPet">Sign Up Pet</string>
+=======
+>>>>>>> a772c73c452465249169cf9b677dac38cd992f00
 </resources>
