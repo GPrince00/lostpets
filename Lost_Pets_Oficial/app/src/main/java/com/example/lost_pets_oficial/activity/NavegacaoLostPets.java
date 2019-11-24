@@ -1,5 +1,6 @@
 package com.example.lost_pets_oficial.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.example.lost_pets_oficial.R;
@@ -63,10 +64,16 @@ public class NavegacaoLostPets extends AppCompatActivity {
         return true;
     }
 
+
     @Override
     public boolean onSupportNavigateUp() {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
     }
+    public void btLocal(View v) {
+        Intent intent = new Intent(this, MapsActivity.class);
+        startActivity(intent);
+    }
+
 }
