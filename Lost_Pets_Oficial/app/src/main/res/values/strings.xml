@@ -33,5 +33,18 @@
     <string name="menu_sobre">Sobre</string>
     <string name="menu_contato">Contato</string>
     <string name="title_activity_maps">Map</string>
+    <string name="hintEmail">Digite seu e-mail</string>
+    <string name="hintSenha">Digite a sua senha</string>
+    <string name="QualSeuNome">Qual é o seu nome?</string>
+    <string name="hintQualSeuNome">Escreva seu nome</string>
+    <string name="QualSeuEmail">Qual é o seu e-mail?</string>
+    <string name="QualSeuCEP">Digite o seu e-mail</string>
+    <string name="hintQualSeuCEP">Digite o seu CEP</string>
+    <string name="QualSeuTelefone">Qual é o seu telefone?</string>
+    <string name="hintQualSeuTelefone">Digite o seu telefone</string>
+    <string name="EscolhaSenha">Escolha uma senha</string>
+    <string name="hintEscolhaSenha">Digite uma senha</string>
+    <string name="Salvar">Salvar</string>
+    <string name="SeuEndereco">Este é o seu endereço?</string>
 
 </resources>
