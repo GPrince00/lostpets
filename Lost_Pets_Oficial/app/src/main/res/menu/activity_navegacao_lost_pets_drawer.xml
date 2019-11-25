@@ -16,24 +16,7 @@
             android:id="@+id/nav_localizacao"
             android:icon="@drawable/ic_my_location_black_24dp"
             android:title="@string/menu_localizacao" />
-        <item
-            android:id="@+id/nav_configuracao"
-            android:icon="@drawable/ic_build_black_24dp"
-            android:title="@string/menu_configuracao" />
 
     </group>
-
-    <item android:title="Comunicação">
-        <menu>
-            <item
-                android:id="@+id/nav_contato"
-                android:icon="@drawable/ic_menu_share"
-                android:title="@string/menu_contato" />
-            <item
-                android:id="@+id/nav_sobre"
-                android:icon="@drawable/ic_info"
-                android:title="@string/menu_sobre" />
-        </menu>
-    </item>
 
 </menu>
