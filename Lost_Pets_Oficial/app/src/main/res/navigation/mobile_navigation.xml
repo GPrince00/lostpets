@@ -23,21 +23,4 @@
         android:label="@string/menu_localizacao"
         tools:layout="@layout/fragment_slideshow" />
 
-    <fragment
-        android:id="@+id/nav_configuracao"
-        android:name="com.example.lost_pets_oficial.activity.ui.tools.ToolsFragment"
-        android:label="@string/menu_configuracao"
-        tools:layout="@layout/fragment_tools" />
-
-    <fragment
-        android:id="@+id/nav_contato"
-        android:name="com.example.lost_pets_oficial.activity.ui.share.ShareFragment"
-        android:label="@string/menu_contato"
-        tools:layout="@layout/fragment_share" />
-
-    <fragment
-        android:id="@+id/nav_sobre"
-        android:name="com.example.lost_pets_oficial.activity.ui.send.SendFragment"
-        android:label="@string/menu_sobre"
-        tools:layout="@layout/fragment_send" />
 </navigation>
