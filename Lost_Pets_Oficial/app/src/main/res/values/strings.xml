@@ -33,6 +33,7 @@
     <string name="menu_sobre">Sobre</string>
     <string name="menu_contato">Contato</string>
     <string name="title_activity_maps">Map</string>
+<<<<<<< HEAD
     <string name="title_activity_filtro">FiltroActivity</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
@@ -124,5 +125,20 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="action_settings">Settings</string>
+=======
+    <string name="hintEmail">Digite seu e-mail</string>
+    <string name="hintSenha">Digite a sua senha</string>
+    <string name="QualSeuNome">Qual é o seu nome?</string>
+    <string name="hintQualSeuNome">Escreva seu nome</string>
+    <string name="QualSeuEmail">Qual é o seu e-mail?</string>
+    <string name="QualSeuCEP">Digite o seu e-mail</string>
+    <string name="hintQualSeuCEP">Digite o seu CEP</string>
+    <string name="QualSeuTelefone">Qual é o seu telefone?</string>
+    <string name="hintQualSeuTelefone">Digite o seu telefone</string>
+    <string name="EscolhaSenha">Escolha uma senha</string>
+    <string name="hintEscolhaSenha">Digite uma senha</string>
+    <string name="Salvar">Salvar</string>
+    <string name="SeuEndereco">Este é o seu endereço?</string>
+>>>>>>> 10a988f6f49a847507397a8e6d24e18569b40807
 
 </resources>

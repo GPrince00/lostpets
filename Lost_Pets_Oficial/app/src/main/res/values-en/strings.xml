@@ -25,4 +25,17 @@
     <string name="menu_sobre">Share</string>
     <string name="menu_contato">Contact</string>
     <string name="action_sair">Exit</string>
+    <string name="hintEmail">Enter your email</string>
+    <string name="hintSenha">"Enter your password "</string>
+    <string name="QualSeuNome">What is your name?</string>
+    <string name="hintQualSeuNome">Enter your name</string>
+    <string name="QualSeuEmail">What is your email?</string>
+    <string name="QualSeuCEP">What is your CEP?</string>
+    <string name="hintQualSeuCEP">Enter your CEP</string>
+    <string name="QualSeuTelefone">What is your phone number?</string>
+    <string name="hintQualSeuTelefone">Enter your phone number</string>
+    <string name="EscolhaSenha">Choose a password</string>
+    <string name="hintEscolhaSenha">Type a password</string>
+    <string name="Salvar">Save</string>
+    <string name="SeuEndereco">This is your address?</string>
 </resources>
