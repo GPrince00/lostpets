@@ -27,7 +27,7 @@
                 android:id="@+id/textView16"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Agora mesmo" />
+                android:text="10 min atrás" />
 
             <ImageView
                 android:id="@+id/imageView4"
@@ -42,7 +42,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:text="Cachorro Perdido" />
+                android:text="#Cachorro Perdido\n Nome: Tobi\n Perdido próximo ao bairro Jd.Celeste\n Tel:11986539756" />
 
         </LinearLayout>
 

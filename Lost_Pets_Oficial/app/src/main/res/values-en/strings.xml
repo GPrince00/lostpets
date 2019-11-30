@@ -20,7 +20,7 @@
     <string name="cadastre_se">" Sign up"</string>
     <string name="menu_home">Home</string>
     <string name="menu_configuracao">Setup</string>
-    <string name="menu_cadastrarPet">Sign Up Pet</string>
+    <string name="menu_cadastrarPet">Register Pet</string>
     <string name="menu_localizacao">Localization</string>
     <string name="menu_sobre">Share</string>
     <string name="menu_contato">Contact</string>
